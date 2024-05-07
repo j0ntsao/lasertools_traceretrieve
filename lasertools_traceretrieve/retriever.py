@@ -7,8 +7,8 @@ import numpy as np
 from lasertools_pulse import Pulse
 from lasertools_traceprocess import Normalizer
 from lasertools_trace.models.base import _TraceBase
-from traceretrievedev.algorithm.descend import SettingsDescent, descend
-from traceretrievedev import resources
+from lasertools_traceretrieve.algorithm.descend import SettingsDescent, descend
+from lasertools_traceretrieve import resources
 
 
 class Times:

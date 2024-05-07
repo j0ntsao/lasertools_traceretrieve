@@ -7,7 +7,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from lasertools_trace import _TraceBase
 from lasertools_pulse import Pulse
-from traceretrievedev.resources.colormap_jetwhite import create_colormap
+from lasertools_traceretrieve.resources.colormap_jetwhite import create_colormap
 
 
 @dataclasses.dataclass
