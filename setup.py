@@ -5,14 +5,14 @@ with open("README.md", "r") as f:
 
 setup(
     name="lasertools_traceretrieve",
-    version="0.0.1",
+    version="0.0.1.1",
     description="A module to reconstruct the phase of a pulse from a measurement",
     license="GPLv3",
     long_description=long_description,
     author="brittonm",
     author_email="68578865+brittonm@users.noreply.github.com",
     url="https://github.com/lasertools/lasertools_traceretrieve",
-    download_url = 'https://github.com/lasertools/lasertools_traceretrieve/archive/refs/tags/v_0_0_1.tar.gz',
+    download_url = 'https://github.com/lasertools/lasertools_traceretrieve/archive/refs/tags/v_0_0_1_1.tar.gz',
     packages=[
         "lasertools_traceretrieve",
         "lasertools_traceretrieve.algorithm",
