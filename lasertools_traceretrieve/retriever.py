@@ -144,8 +144,8 @@ class SettingsRetrieve:
     - output_directory (Optional) -- Path to directory for output
     - normalization (Optional) -- continuous (2d) or discontinuous (1d)"""
 
-    descend: SettingsDescent = SettingsDescent()
-    thresholds: SettingsThreshold = SettingsThreshold()
+    descend: SettingsDescent = None #### changed
+    thresholds: SettingsThreshold = None ###Changed
     update_period: int = 25
     output_directory: str = None
     normalizer: Normalizer = None
